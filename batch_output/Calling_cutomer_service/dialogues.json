@@ -1,0 +1,189 @@
+[
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Action",
+    "text": "Jake holds his phone and dials the number.",
+    "line_number": 1,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Action_001.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\01_Action_001.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Clerk",
+    "text": "Good morning, TechLine customer service. How can I help you?",
+    "line_number": 2,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Clerk_002.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\01_Clerk_002.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Jake",
+    "text": "Hello, my name’s Jake Vella. I bought a new phone yesterday, but it doesn’t turn on.",
+    "line_number": 3,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Jake_003.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\01_Jake_003.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Action",
+    "text": "The clerk types on her computer.",
+    "line_number": 4,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Action_004.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\02_Action_004.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Jake",
+    "text": "Yes, of course. I’ve got the warranty too. Its number is 4529.",
+    "line_number": 5,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Jake_005.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\02_Jake_005.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Action",
+    "text": "Clerk checks the details on the screen.",
+    "line_number": 6,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Action_006.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\03_Action_006.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Clerk",
+    "text": "Thank you. Did you charge the phone before turning it on?",
+    "line_number": 7,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Clerk_007.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\03_Clerk_007.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Jake",
+    "text": "Yes, I charged it for two hours, but nothing happened.",
+    "line_number": 8,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Jake_008.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\03_Jake_008.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Action",
+    "text": "Clerk nods and offers a solution.",
+    "line_number": 9,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Action_009.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\04_Action_009.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Clerk",
+    "text": "I understand. Please bring the phone to our service centre. We’ll check or replace it for free.",
+    "line_number": 10,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Clerk_010.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\04_Clerk_010.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Jake",
+    "text": "That’s great, thank you. Where is the service centre?",
+    "line_number": 11,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Jake_011.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\04_Jake_011.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 5",
+    "slide_number": 5,
+    "character": "Action",
+    "text": "Clerk gives clear directions.",
+    "line_number": 12,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "05_Action_012.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\05_Action_012.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 5",
+    "slide_number": 5,
+    "character": "Clerk",
+    "text": "It’s on Main Street, next to the post office. We’re open from 9 a.m. to 5 p.m.",
+    "line_number": 13,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "05_Clerk_013.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\05_Clerk_013.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 5",
+    "slide_number": 5,
+    "character": "Jake",
+    "text": "Thank you very much for your help.",
+    "line_number": 14,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "05_Jake_014.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\05_Jake_014.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 6",
+    "slide_number": 6,
+    "character": "Action",
+    "text": "Both smile; the call ends politely.",
+    "line_number": 15,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "06_Action_015.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\06_Action_015.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 6",
+    "slide_number": 6,
+    "character": "Clerk",
+    "text": "You’re welcome. Have a nice day.",
+    "line_number": 16,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "06_Clerk_016.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\06_Clerk_016.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 6",
+    "slide_number": 6,
+    "character": "Jake",
+    "text": "You too. Goodbye.",
+    "line_number": 17,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "06_Jake_017.mp3",
+    "file_path": "batch_output\\Calling_cutomer_service\\06_Jake_017.mp3",
+    "success": true
+  }
+]

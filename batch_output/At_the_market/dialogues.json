@@ -1,0 +1,189 @@
+[
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Scene",
+    "text": "Market stall with apples and oranges. Lisa walks up smiling.",
+    "line_number": 1,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Scene_001.mp3",
+    "file_path": "batch_output\\At_the_market\\01_Scene_001.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Lisa",
+    "text": "Good morning.",
+    "line_number": 2,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Lisa_002.mp3",
+    "file_path": "batch_output\\At_the_market\\01_Lisa_002.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Seller",
+    "text": "Good morning. What would you like?",
+    "line_number": 3,
+    "voice_id": "XB0fDUnXU5powFXDhCwa",
+    "file_name": "01_Seller_003.mp3",
+    "file_path": "batch_output\\At_the_market\\01_Seller_003.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Scene",
+    "text": "Close-up of the fruit.",
+    "line_number": 4,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Scene_004.mp3",
+    "file_path": "batch_output\\At_the_market\\02_Scene_004.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Lisa",
+    "text": "Two apples, please.",
+    "line_number": 5,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Lisa_005.mp3",
+    "file_path": "batch_output\\At_the_market\\02_Lisa_005.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Seller",
+    "text": "Here you are. Anything else?",
+    "line_number": 6,
+    "voice_id": "XB0fDUnXU5powFXDhCwa",
+    "file_name": "02_Seller_006.mp3",
+    "file_path": "batch_output\\At_the_market\\02_Seller_006.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Lisa",
+    "text": "Yes, one kilo of oranges, please.",
+    "line_number": 7,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Lisa_007.mp3",
+    "file_path": "batch_output\\At_the_market\\02_Lisa_007.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Scene",
+    "text": "The seller puts fruit in a bag.",
+    "line_number": 8,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Scene_008.mp3",
+    "file_path": "batch_output\\At_the_market\\03_Scene_008.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Seller",
+    "text": "Would you like anything else?",
+    "line_number": 9,
+    "voice_id": "XB0fDUnXU5powFXDhCwa",
+    "file_name": "03_Seller_009.mp3",
+    "file_path": "batch_output\\At_the_market\\03_Seller_009.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Lisa",
+    "text": "Yes, some cheese, please.",
+    "line_number": 10,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Lisa_010.mp3",
+    "file_path": "batch_output\\At_the_market\\03_Lisa_010.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Seller",
+    "text": "How much cheese?",
+    "line_number": 11,
+    "voice_id": "XB0fDUnXU5powFXDhCwa",
+    "file_name": "03_Seller_011.mp3",
+    "file_path": "batch_output\\At_the_market\\03_Seller_011.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Lisa",
+    "text": "A small piece, please. About 200 grams.",
+    "line_number": 12,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Lisa_012.mp3",
+    "file_path": "batch_output\\At_the_market\\03_Lisa_012.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Scene",
+    "text": "Lisa pays and takes the bag and smiles.",
+    "line_number": 13,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Scene_013.mp3",
+    "file_path": "batch_output\\At_the_market\\04_Scene_013.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Seller",
+    "text": "That’s five euros, please.",
+    "line_number": 14,
+    "voice_id": "XB0fDUnXU5powFXDhCwa",
+    "file_name": "04_Seller_014.mp3",
+    "file_path": "batch_output\\At_the_market\\04_Seller_014.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Lisa",
+    "text": "Here you are.",
+    "line_number": 15,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Lisa_015.mp3",
+    "file_path": "batch_output\\At_the_market\\04_Lisa_015.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Seller",
+    "text": "Thank you. Have a nice day.",
+    "line_number": 16,
+    "voice_id": "XB0fDUnXU5powFXDhCwa",
+    "file_name": "04_Seller_016.mp3",
+    "file_path": "batch_output\\At_the_market\\04_Seller_016.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Lisa",
+    "text": "You too. Bye.",
+    "line_number": 17,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Lisa_017.mp3",
+    "file_path": "batch_output\\At_the_market\\04_Lisa_017.mp3",
+    "success": true
+  }
+]

@@ -1,0 +1,29 @@
+scene,slide_number,character,text,voice_id,file_name,success
+Slide 1,1,Scene,Doctor’s office. Bryan knocks at the door.,EXAVITQu4vr4xnSDxMaL,01_Scene_001.mp3,True
+Slide 1,1,Action,Doctor looks up from the desk.,EXAVITQu4vr4xnSDxMaL,01_Action_002.mp3,True
+Slide 1,1,Doctor,"Good morning. Please, come in.",EXAVITQu4vr4xnSDxMaL,01_Doctor_003.mp3,True
+Slide 1,1,Bryan,"Good morning, doctor.",EXAVITQu4vr4xnSDxMaL,01_Bryan_004.mp3,True
+Slide 2,2,Scene,Bryan sits down. Doctor looks concerned but friendly.,EXAVITQu4vr4xnSDxMaL,02_Scene_005.mp3,True
+Slide 2,2,Doctor,What seems to be the matter?,EXAVITQu4vr4xnSDxMaL,02_Doctor_006.mp3,True
+Slide 2,2,Bryan,"I have a sore throat, and it hurts when I swallow. I have a runny nose too.",EXAVITQu4vr4xnSDxMaL,02_Bryan_007.mp3,True
+Slide 3,3,Scene,Doctor takes notes on a clipboard.,EXAVITQu4vr4xnSDxMaL,03_Scene_008.mp3,True
+Slide 3,3,Doctor,I see. Do you also have a cough or a fever?,EXAVITQu4vr4xnSDxMaL,03_Doctor_009.mp3,True
+Slide 3,3,Bryan,"Yes, I have a little cough, but I don’t have a fever. I often sneeze too.",EXAVITQu4vr4xnSDxMaL,03_Bryan_010.mp3,True
+Slide 4,4,Scene,Doctor checks Bryan’s throat with a small flashlight.,EXAVITQu4vr4xnSDxMaL,04_Scene_011.mp3,True
+Slide 4,4,Doctor,How long have you had these symptoms?,EXAVITQu4vr4xnSDxMaL,04_Doctor_012.mp3,True
+Slide 4,4,Bryan,Since yesterday morning. It got worse last night.,EXAVITQu4vr4xnSDxMaL,04_Bryan_013.mp3,True
+Slide 4,4,Doctor,Do you feel tired?,EXAVITQu4vr4xnSDxMaL,04_Doctor_014.mp3,True
+Slide 4,4,Bryan,"Yes, a bit. I didn’t sleep very well because of my sore throat.",EXAVITQu4vr4xnSDxMaL,04_Bryan_015.mp3,True
+Slide 4,4,Doctor,"Let me check it. Please open your mouth and say “ahh.” Yes, your throat is red and a bit swollen.",EXAVITQu4vr4xnSDxMaL,04_Doctor_016.mp3,True
+Slide 5,5,Scene,"Doctor uses a stethoscope, listens to Bryan’s chest. Bryan breathes deeply.",EXAVITQu4vr4xnSDxMaL,05_Scene_017.mp3,True
+Slide 5,5,Doctor,Now I’d like to listen to your chest. Please take a deep breath in. Now let it out. Good. Your lungs sound clear.,EXAVITQu4vr4xnSDxMaL,05_Doctor_018.mp3,True
+Slide 6,6,Scene,Doctor measures blood pressure.,EXAVITQu4vr4xnSDxMaL,06_Scene_019.mp3,True
+Slide 6,6,Doctor,"I’ll also check your blood pressure. Please roll up your sleeve. Well, your blood pressure is normal. That’s good.",EXAVITQu4vr4xnSDxMaL,06_Doctor_020.mp3,True
+Slide 7,7,Scene,Doctor writes notes at the desk.,EXAVITQu4vr4xnSDxMaL,07_Scene_021.mp3,True
+Slide 7,7,Bryan,"What do you think it is, doctor?",EXAVITQu4vr4xnSDxMaL,07_Bryan_022.mp3,True
+Slide 7,7,Doctor,Don’t worry. It looks like you’ve caught a cold. Nothing serious. But you need some medicine too. You should drink warm tea with honey. Stay at home for a few days and rest as much as you can.,EXAVITQu4vr4xnSDxMaL,07_Doctor_023.mp3,True
+Slide 7,7,Bryan,"All right. Can I have a note for school, please?",EXAVITQu4vr4xnSDxMaL,07_Bryan_024.mp3,True
+Slide 8,8,Scene,Doctor writes the note and hands it to Bryan.,EXAVITQu4vr4xnSDxMaL,08_Scene_025.mp3,True
+Slide 8,8,Doctor,Of course. I’ll write an excuse note for three days.,EXAVITQu4vr4xnSDxMaL,08_Doctor_026.mp3,True
+Slide 8,8,Bryan,Thank you.,EXAVITQu4vr4xnSDxMaL,08_Bryan_027.mp3,True
+Slide 8,8,Doctor,You’re welcome. Take care and get well soon.,EXAVITQu4vr4xnSDxMaL,08_Doctor_028.mp3,True

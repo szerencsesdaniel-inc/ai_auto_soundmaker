@@ -1,0 +1,123 @@
+[
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Action",
+    "text": "Emma looks at a jacket on a hanger.",
+    "line_number": 1,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Action_001.mp3",
+    "file_path": "batch_output\\Buying_clothes\\01_Action_001.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Emma",
+    "text": "Excuse me, how much is this jacket?",
+    "line_number": 2,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Emma_002.mp3",
+    "file_path": "batch_output\\Buying_clothes\\01_Emma_002.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Action",
+    "text": "Emma looks interested. Shop assistant is looking for another jacket to help Emma.",
+    "line_number": 3,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Action_003.mp3",
+    "file_path": "batch_output\\Buying_clothes\\02_Action_003.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Emma",
+    "text": "That’s a good price! Have you got it in size small?",
+    "line_number": 4,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Emma_004.mp3",
+    "file_path": "batch_output\\Buying_clothes\\02_Emma_004.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Action",
+    "text": "Emma holds the jacket. Shop assistant points towards the changing rooms.",
+    "line_number": 5,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Action_005.mp3",
+    "file_path": "batch_output\\Buying_clothes\\03_Action_005.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Emma",
+    "text": "Yes, please. Where are the changing rooms?",
+    "line_number": 6,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Emma_006.mp3",
+    "file_path": "batch_output\\Buying_clothes\\03_Emma_006.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Action",
+    "text": "Emma comes back wearing the jacket.",
+    "line_number": 7,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Action_007.mp3",
+    "file_path": "batch_output\\Buying_clothes\\04_Action_007.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Emma",
+    "text": "It fits perfectly. How much is it now with the discount?",
+    "line_number": 8,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Emma_008.mp3",
+    "file_path": "batch_output\\Buying_clothes\\04_Emma_008.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 5",
+    "slide_number": 5,
+    "character": "Action",
+    "text": "Emma smiles and takes out her wallet. The assistant hands over the shopping bag to Emma.",
+    "line_number": 9,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "05_Action_009.mp3",
+    "file_path": "batch_output\\Buying_clothes\\05_Action_009.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 5",
+    "slide_number": 5,
+    "character": "Emma",
+    "text": "Yes, I’ll take it, thank you.",
+    "line_number": 10,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "05_Emma_010.mp3",
+    "file_path": "batch_output\\Buying_clothes\\05_Emma_010.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 5",
+    "slide_number": 5,
+    "character": "Emma",
+    "text": "You too. Goodbye.",
+    "line_number": 11,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "05_Emma_011.mp3",
+    "file_path": "batch_output\\Buying_clothes\\05_Emma_011.mp3",
+    "success": true
+  }
+]

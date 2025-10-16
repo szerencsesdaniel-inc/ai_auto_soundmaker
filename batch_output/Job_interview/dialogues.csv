@@ -1,0 +1,21 @@
+scene,slide_number,character,text,voice_id,file_name,success
+Slide 1,1,Action,Tom enters and shakes hands politely.,EXAVITQu4vr4xnSDxMaL,01_Action_001.mp3,True
+Slide 1,1,Manager,"Good morning. Nice to meet you. Please, have a seat.",EXAVITQu4vr4xnSDxMaL,01_Manager_002.mp3,True
+Slide 1,1,Tom,Good morning. Nice to meet you too.,EXAVITQu4vr4xnSDxMaL,01_Tom_003.mp3,True
+Slide 2,2,Action,Manager looks at Tom’s CV.,EXAVITQu4vr4xnSDxMaL,02_Action_004.mp3,True
+Slide 2,2,Manager,"So, Tom, why would you like to work here?",EXAVITQu4vr4xnSDxMaL,02_Manager_005.mp3,True
+Slide 2,2,Tom,"I like working with people, and I enjoy being in a busy environment. I also come to this café often.",EXAVITQu4vr4xnSDxMaL,02_Tom_006.mp3,True
+Slide 3,3,Action,The manager smiles.,EXAVITQu4vr4xnSDxMaL,03_Action_007.mp3,True
+Slide 3,3,Manager,That’s nice to hear. Do you have any work experience?,EXAVITQu4vr4xnSDxMaL,03_Manager_008.mp3,True
+Slide 3,3,Tom,"Yes, I worked part-time in another café last summer. I served customers and helped in the kitchen.",EXAVITQu4vr4xnSDxMaL,03_Tom_009.mp3,True
+Slide 4,4,Action,Manager writes notes.,EXAVITQu4vr4xnSDxMaL,04_Action_010.mp3,True
+Slide 4,4,Tom,"Yes, I’m a university student. I study business management.",EXAVITQu4vr4xnSDxMaL,04_Tom_011.mp3,True
+Slide 5,5,Action,The manager nods.,EXAVITQu4vr4xnSDxMaL,05_Action_012.mp3,True
+Slide 5,5,Manager,When are you available to work?,EXAVITQu4vr4xnSDxMaL,05_Manager_013.mp3,True
+Slide 5,5,Tom,I can work at the weekends and two afternoons during the week.,EXAVITQu4vr4xnSDxMaL,05_Tom_014.mp3,True
+Slide 6,6,Action,Manager smiles approvingly.,EXAVITQu4vr4xnSDxMaL,06_Action_015.mp3,True
+Slide 6,6,Manager,That’s perfect. We often need help on Saturdays. Do you mind working early in the morning?,EXAVITQu4vr4xnSDxMaL,06_Manager_016.mp3,True
+Slide 6,6,Tom,"No, not at all. I’m used to waking up early.",EXAVITQu4vr4xnSDxMaL,06_Tom_017.mp3,True
+Slide 7,7,Action,Manager stands up and shakes Tom’s hand.,EXAVITQu4vr4xnSDxMaL,07_Action_018.mp3,True
+Slide 7,7,Manager,"Excellent, Tom. Thank you for coming today. We’ll get back in touch with you in a few days.",EXAVITQu4vr4xnSDxMaL,07_Manager_019.mp3,True
+Slide 7,7,Tom,Thank you very much. Have a nice day.,EXAVITQu4vr4xnSDxMaL,07_Tom_020.mp3,True

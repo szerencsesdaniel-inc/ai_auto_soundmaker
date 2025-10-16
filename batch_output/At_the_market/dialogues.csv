@@ -1,0 +1,18 @@
+scene,slide_number,character,text,voice_id,file_name,success
+Slide 1,1,Scene,Market stall with apples and oranges. Lisa walks up smiling.,EXAVITQu4vr4xnSDxMaL,01_Scene_001.mp3,True
+Slide 1,1,Lisa,Good morning.,EXAVITQu4vr4xnSDxMaL,01_Lisa_002.mp3,True
+Slide 1,1,Seller,Good morning. What would you like?,XB0fDUnXU5powFXDhCwa,01_Seller_003.mp3,True
+Slide 2,2,Scene,Close-up of the fruit.,EXAVITQu4vr4xnSDxMaL,02_Scene_004.mp3,True
+Slide 2,2,Lisa,"Two apples, please.",EXAVITQu4vr4xnSDxMaL,02_Lisa_005.mp3,True
+Slide 2,2,Seller,Here you are. Anything else?,XB0fDUnXU5powFXDhCwa,02_Seller_006.mp3,True
+Slide 2,2,Lisa,"Yes, one kilo of oranges, please.",EXAVITQu4vr4xnSDxMaL,02_Lisa_007.mp3,True
+Slide 3,3,Scene,The seller puts fruit in a bag.,EXAVITQu4vr4xnSDxMaL,03_Scene_008.mp3,True
+Slide 3,3,Seller,Would you like anything else?,XB0fDUnXU5powFXDhCwa,03_Seller_009.mp3,True
+Slide 3,3,Lisa,"Yes, some cheese, please.",EXAVITQu4vr4xnSDxMaL,03_Lisa_010.mp3,True
+Slide 3,3,Seller,How much cheese?,XB0fDUnXU5powFXDhCwa,03_Seller_011.mp3,True
+Slide 3,3,Lisa,"A small piece, please. About 200 grams.",EXAVITQu4vr4xnSDxMaL,03_Lisa_012.mp3,True
+Slide 4,4,Scene,Lisa pays and takes the bag and smiles.,EXAVITQu4vr4xnSDxMaL,04_Scene_013.mp3,True
+Slide 4,4,Seller,"That’s five euros, please.",XB0fDUnXU5powFXDhCwa,04_Seller_014.mp3,True
+Slide 4,4,Lisa,Here you are.,EXAVITQu4vr4xnSDxMaL,04_Lisa_015.mp3,True
+Slide 4,4,Seller,Thank you. Have a nice day.,XB0fDUnXU5powFXDhCwa,04_Seller_016.mp3,True
+Slide 4,4,Lisa,You too. Bye.,EXAVITQu4vr4xnSDxMaL,04_Lisa_017.mp3,True

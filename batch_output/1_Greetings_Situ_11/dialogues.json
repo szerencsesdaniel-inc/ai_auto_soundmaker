@@ -1,0 +1,90 @@
+[
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Scene",
+    "text": "Corridor. Daniel sees Ms Camilleri.",
+    "line_number": 1,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Scene_001.mp3",
+    "file_path": "batch_output\\1_Greetings_Situ_11\\01_Scene_001.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Daniel",
+    "text": "Good morning, Ms Camilleri.",
+    "line_number": 2,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Daniel_002.mp3",
+    "file_path": "batch_output\\1_Greetings_Situ_11\\01_Daniel_002.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Scene",
+    "text": "Daniel holds his books, a bit shy.",
+    "line_number": 3,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Scene_003.mp3",
+    "file_path": "batch_output\\1_Greetings_Situ_11\\02_Scene_003.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Daniel",
+    "text": "I’m fine, thank you. I’m a bit nervous about the test.",
+    "line_number": 4,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Daniel_004.mp3",
+    "file_path": "batch_output\\1_Greetings_Situ_11\\02_Daniel_004.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Scene",
+    "text": "Ms Camilleri smiles kindly.",
+    "line_number": 5,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Scene_005.mp3",
+    "file_path": "batch_output\\1_Greetings_Situ_11\\03_Scene_005.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Daniel",
+    "text": "I hope so.",
+    "line_number": 6,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Daniel_006.mp3",
+    "file_path": "batch_output\\1_Greetings_Situ_11\\03_Daniel_006.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Scene",
+    "text": "Two-shot, corridor with other students passing.",
+    "line_number": 7,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Scene_007.mp3",
+    "file_path": "batch_output\\1_Greetings_Situ_11\\04_Scene_007.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Daniel",
+    "text": "And how are you, Ms Camilleri?",
+    "line_number": 8,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Daniel_008.mp3",
+    "file_path": "batch_output\\1_Greetings_Situ_11\\04_Daniel_008.mp3",
+    "success": true
+  }
+]

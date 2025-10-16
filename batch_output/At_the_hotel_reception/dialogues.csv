@@ -1,0 +1,16 @@
+scene,slide_number,character,text,voice_id,file_name,success
+Slide 1,1,Scene,Hotel lobby with a reception desk and suitcases on the floor next to Emma.,EXAVITQu4vr4xnSDxMaL,01_Scene_001.mp3,True
+Slide 1,1,Emma,Good afternoon. I have a booking for two nights. My name is Emma Lewis.,EXAVITQu4vr4xnSDxMaL,01_Emma_002.mp3,True
+Slide 1,1,Receptionist,"Welcome, Ms Lewis. Let me check your reservation. Yes, a double room with a balcony for two nights.",VR6AewLTigWG4xSOukaG,01_Receptionist_003.mp3,True
+Slide 2,2,Scene,Close-up of the receptionist typing on the computer.,EXAVITQu4vr4xnSDxMaL,02_Scene_004.mp3,True
+Slide 2,2,Emma,Is breakfast included in the price?,EXAVITQu4vr4xnSDxMaL,02_Emma_005.mp3,True
+Slide 2,2,Receptionist,"Yes, it is. Breakfast is served from seven to ten in the restaurant on the ground floor.",VR6AewLTigWG4xSOukaG,02_Receptionist_006.mp3,True
+Slide 3,3,Scene,Medium shot – Emma looks around the lobby.,EXAVITQu4vr4xnSDxMaL,03_Scene_007.mp3,True
+Slide 3,3,Emma,"Great, thank you. And what time is dinner served?",EXAVITQu4vr4xnSDxMaL,03_Emma_008.mp3,True
+Slide 3,3,Receptionist,Dinner is from six thirty to nine thirty. You can also order snacks from the bar during the day.,VR6AewLTigWG4xSOukaG,03_Receptionist_009.mp3,True
+Slide 4,4,Scene,Reception area with brochures and a small table with coffee.,EXAVITQu4vr4xnSDxMaL,04_Scene_010.mp3,True
+Slide 4,4,Emma,Are there any special services at the hotel?,EXAVITQu4vr4xnSDxMaL,04_Emma_011.mp3,True
+Slide 4,4,Receptionist,"Yes, there’s a swimming pool, a small gym and free Wi-Fi in every room. You can also book a massage or rent bicycles at reception.",VR6AewLTigWG4xSOukaG,04_Receptionist_012.mp3,True
+Slide 5,5,Scene,Emma smiles and takes her room key.,EXAVITQu4vr4xnSDxMaL,05_Scene_013.mp3,True
+Slide 5,5,Emma,That sounds perfect. Thank you.,EXAVITQu4vr4xnSDxMaL,05_Emma_014.mp3,True
+Slide 5,5,Receptionist,You’re very welcome. Your room is on the second floor. Have a nice stay.,VR6AewLTigWG4xSOukaG,05_Receptionist_015.mp3,True

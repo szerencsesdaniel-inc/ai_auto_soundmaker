@@ -1,0 +1,134 @@
+[
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Scene",
+    "text": "Street with a bus stop; Harry standing near the timetable. A middle-aged woman approaches him.",
+    "line_number": 1,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Scene_001.mp3",
+    "file_path": "batch_output\\Asking_and_telling_the_time\\01_Scene_001.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Tourist",
+    "text": "Excuse me, what time is it, please?",
+    "line_number": 2,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Tourist_002.mp3",
+    "file_path": "batch_output\\Asking_and_telling_the_time\\01_Tourist_002.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Harry",
+    "text": "It’s ten o’clock.",
+    "line_number": 3,
+    "voice_id": "pNInz6obpgDQGcFmaJgB",
+    "file_name": "01_Harry_003.mp3",
+    "file_path": "batch_output\\Asking_and_telling_the_time\\01_Harry_003.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Scene",
+    "text": "Medium shot – the tourist looks at the bus stop sign.",
+    "line_number": 4,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Scene_004.mp3",
+    "file_path": "batch_output\\Asking_and_telling_the_time\\02_Scene_004.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Tourist",
+    "text": "Thank you. Do you know when the next bus goes to the museum?",
+    "line_number": 5,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Tourist_005.mp3",
+    "file_path": "batch_output\\Asking_and_telling_the_time\\02_Tourist_005.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Harry",
+    "text": "Yes, it leaves at half past ten from here.",
+    "line_number": 6,
+    "voice_id": "pNInz6obpgDQGcFmaJgB",
+    "file_name": "02_Harry_006.mp3",
+    "file_path": "batch_output\\Asking_and_telling_the_time\\02_Harry_006.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Scene",
+    "text": "Close-up – Harry pointing at the timetable.",
+    "line_number": 7,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Scene_007.mp3",
+    "file_path": "batch_output\\Asking_and_telling_the_time\\03_Scene_007.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Tourist",
+    "text": "And what time does the museum open?",
+    "line_number": 8,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Tourist_008.mp3",
+    "file_path": "batch_output\\Asking_and_telling_the_time\\03_Tourist_008.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Harry",
+    "text": "It opens at eleven o’clock.",
+    "line_number": 9,
+    "voice_id": "pNInz6obpgDQGcFmaJgB",
+    "file_name": "03_Harry_009.mp3",
+    "file_path": "batch_output\\Asking_and_telling_the_time\\03_Harry_009.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Scene",
+    "text": "Wide shot – both smiling, bus arriving in the background.",
+    "line_number": 10,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Scene_010.mp3",
+    "file_path": "batch_output\\Asking_and_telling_the_time\\04_Scene_010.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Tourist",
+    "text": "Perfect, I’ll be there in time. Thank you very much.",
+    "line_number": 11,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Tourist_011.mp3",
+    "file_path": "batch_output\\Asking_and_telling_the_time\\04_Tourist_011.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Harry",
+    "text": "You’re welcome. Have a nice day.",
+    "line_number": 12,
+    "voice_id": "pNInz6obpgDQGcFmaJgB",
+    "file_name": "04_Harry_012.mp3",
+    "file_path": "batch_output\\Asking_and_telling_the_time\\04_Harry_012.mp3",
+    "success": true
+  }
+]

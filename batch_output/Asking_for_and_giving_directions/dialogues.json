@@ -1,0 +1,211 @@
+[
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Scene",
+    "text": "City centre street with cafés, shops and people walking by. The tourists are looking at a map on their phone.",
+    "line_number": 1,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Scene_001.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\01_Scene_001.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Anna",
+    "text": "Excuse me, can you help us, please? We’re looking for a bank.",
+    "line_number": 2,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Anna_002.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\01_Anna_002.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Liam",
+    "text": "Sure. There’s one just around the corner. Go straight ahead and turn right at the traffic lights. It’s next to a small pharmacy.",
+    "line_number": 3,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Liam_003.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\01_Liam_003.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Scene",
+    "text": "Medium shot – the tourists smiling and pointing at the map.",
+    "line_number": 4,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Scene_004.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\02_Scene_004.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Mark",
+    "text": "Is it far from here?",
+    "line_number": 5,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Mark_005.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\02_Mark_005.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Liam",
+    "text": "No, it’s only about five minutes on foot. It’s usually open until half past four.",
+    "line_number": 6,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Liam_006.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\02_Liam_006.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Scene",
+    "text": "Close-up – one of the tourists are checking their phone.",
+    "line_number": 7,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Scene_007.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\03_Scene_007.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Mark",
+    "text": "Great, thank you. Are there any good restaurants near the bank?",
+    "line_number": 8,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Mark_008.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\03_Mark_008.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Liam",
+    "text": "Yes, there’s a nice Italian restaurant opposite the bank. It’s called the Bella Roma.",
+    "line_number": 9,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Liam_009.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\03_Liam_009.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Scene",
+    "text": "All smiling, friendly atmosphere.",
+    "line_number": 10,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Scene_010.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\04_Scene_010.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Anna",
+    "text": "That sounds perfect. Do they serve vegetarian food?",
+    "line_number": 11,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Anna_011.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\04_Anna_011.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Liam",
+    "text": "Yes, they do. My sister often goes there. She says the pasta is really delicious.",
+    "line_number": 12,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Liam_012.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\04_Liam_012.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 5",
+    "slide_number": 5,
+    "character": "Scene",
+    "text": "Close-up of a mobile phone screen showing a map.",
+    "line_number": 13,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "05_Scene_013.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\05_Scene_013.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 5",
+    "slide_number": 5,
+    "character": "Action",
+    "text": "The map has three clear markers:",
+    "line_number": 14,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "05_Action_014.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\05_Action_014.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 5",
+    "slide_number": 5,
+    "character": "Anna",
+    "text": "And is there a cinema close to the restaurant?",
+    "line_number": 15,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "05_Anna_015.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\05_Anna_015.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 5",
+    "slide_number": 5,
+    "character": "Luke",
+    "text": "Yes, there is. Go past the restaurant, cross the main road and you’ll see the cinema on your right.",
+    "line_number": 16,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "05_Luke_016.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\05_Luke_016.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 6",
+    "slide_number": 6,
+    "character": "Scene",
+    "text": "All smiling, friendly atmosphere.",
+    "line_number": 17,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "06_Scene_017.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\06_Scene_017.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 6",
+    "slide_number": 6,
+    "character": "Mark",
+    "text": "Thank you for your help.",
+    "line_number": 18,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "06_Mark_018.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\06_Mark_018.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 6",
+    "slide_number": 6,
+    "character": "Luke",
+    "text": "You’re welcome. Enjoy your day in the capital.",
+    "line_number": 19,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "06_Luke_019.mp3",
+    "file_path": "batch_output\\Asking_for_and_giving_directions\\06_Luke_019.mp3",
+    "success": true
+  }
+]

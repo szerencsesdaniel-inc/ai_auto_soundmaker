@@ -1,0 +1,20 @@
+scene,slide_number,character,text,voice_id,file_name,success
+Slide 1,1,Scene,"City centre street with cafés, shops and people walking by. The tourists are looking at a map on their phone.",EXAVITQu4vr4xnSDxMaL,01_Scene_001.mp3,True
+Slide 1,1,Anna,"Excuse me, can you help us, please? We’re looking for a bank.",EXAVITQu4vr4xnSDxMaL,01_Anna_002.mp3,True
+Slide 1,1,Liam,Sure. There’s one just around the corner. Go straight ahead and turn right at the traffic lights. It’s next to a small pharmacy.,EXAVITQu4vr4xnSDxMaL,01_Liam_003.mp3,True
+Slide 2,2,Scene,Medium shot – the tourists smiling and pointing at the map.,EXAVITQu4vr4xnSDxMaL,02_Scene_004.mp3,True
+Slide 2,2,Mark,Is it far from here?,EXAVITQu4vr4xnSDxMaL,02_Mark_005.mp3,True
+Slide 2,2,Liam,"No, it’s only about five minutes on foot. It’s usually open until half past four.",EXAVITQu4vr4xnSDxMaL,02_Liam_006.mp3,True
+Slide 3,3,Scene,Close-up – one of the tourists are checking their phone.,EXAVITQu4vr4xnSDxMaL,03_Scene_007.mp3,True
+Slide 3,3,Mark,"Great, thank you. Are there any good restaurants near the bank?",EXAVITQu4vr4xnSDxMaL,03_Mark_008.mp3,True
+Slide 3,3,Liam,"Yes, there’s a nice Italian restaurant opposite the bank. It’s called the Bella Roma.",EXAVITQu4vr4xnSDxMaL,03_Liam_009.mp3,True
+Slide 4,4,Scene,"All smiling, friendly atmosphere.",EXAVITQu4vr4xnSDxMaL,04_Scene_010.mp3,True
+Slide 4,4,Anna,That sounds perfect. Do they serve vegetarian food?,EXAVITQu4vr4xnSDxMaL,04_Anna_011.mp3,True
+Slide 4,4,Liam,"Yes, they do. My sister often goes there. She says the pasta is really delicious.",EXAVITQu4vr4xnSDxMaL,04_Liam_012.mp3,True
+Slide 5,5,Scene,Close-up of a mobile phone screen showing a map.,EXAVITQu4vr4xnSDxMaL,05_Scene_013.mp3,True
+Slide 5,5,Action,The map has three clear markers:,EXAVITQu4vr4xnSDxMaL,05_Action_014.mp3,True
+Slide 5,5,Anna,And is there a cinema close to the restaurant?,EXAVITQu4vr4xnSDxMaL,05_Anna_015.mp3,True
+Slide 5,5,Luke,"Yes, there is. Go past the restaurant, cross the main road and you’ll see the cinema on your right.",EXAVITQu4vr4xnSDxMaL,05_Luke_016.mp3,True
+Slide 6,6,Scene,"All smiling, friendly atmosphere.",EXAVITQu4vr4xnSDxMaL,06_Scene_017.mp3,True
+Slide 6,6,Mark,Thank you for your help.,EXAVITQu4vr4xnSDxMaL,06_Mark_018.mp3,True
+Slide 6,6,Luke,You’re welcome. Enjoy your day in the capital.,EXAVITQu4vr4xnSDxMaL,06_Luke_019.mp3,True

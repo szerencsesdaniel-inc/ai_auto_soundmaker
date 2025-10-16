@@ -1,0 +1,222 @@
+[
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Action",
+    "text": "Tom enters and shakes hands politely.",
+    "line_number": 1,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Action_001.mp3",
+    "file_path": "batch_output\\Job_interview\\01_Action_001.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Manager",
+    "text": "Good morning. Nice to meet you. Please, have a seat.",
+    "line_number": 2,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Manager_002.mp3",
+    "file_path": "batch_output\\Job_interview\\01_Manager_002.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 1",
+    "slide_number": 1,
+    "character": "Tom",
+    "text": "Good morning. Nice to meet you too.",
+    "line_number": 3,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "01_Tom_003.mp3",
+    "file_path": "batch_output\\Job_interview\\01_Tom_003.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Action",
+    "text": "Manager looks at Tom’s CV.",
+    "line_number": 4,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Action_004.mp3",
+    "file_path": "batch_output\\Job_interview\\02_Action_004.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Manager",
+    "text": "So, Tom, why would you like to work here?",
+    "line_number": 5,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Manager_005.mp3",
+    "file_path": "batch_output\\Job_interview\\02_Manager_005.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 2",
+    "slide_number": 2,
+    "character": "Tom",
+    "text": "I like working with people, and I enjoy being in a busy environment. I also come to this café often.",
+    "line_number": 6,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "02_Tom_006.mp3",
+    "file_path": "batch_output\\Job_interview\\02_Tom_006.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Action",
+    "text": "The manager smiles.",
+    "line_number": 7,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Action_007.mp3",
+    "file_path": "batch_output\\Job_interview\\03_Action_007.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Manager",
+    "text": "That’s nice to hear. Do you have any work experience?",
+    "line_number": 8,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Manager_008.mp3",
+    "file_path": "batch_output\\Job_interview\\03_Manager_008.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 3",
+    "slide_number": 3,
+    "character": "Tom",
+    "text": "Yes, I worked part-time in another café last summer. I served customers and helped in the kitchen.",
+    "line_number": 9,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "03_Tom_009.mp3",
+    "file_path": "batch_output\\Job_interview\\03_Tom_009.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Action",
+    "text": "Manager writes notes.",
+    "line_number": 10,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Action_010.mp3",
+    "file_path": "batch_output\\Job_interview\\04_Action_010.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 4",
+    "slide_number": 4,
+    "character": "Tom",
+    "text": "Yes, I’m a university student. I study business management.",
+    "line_number": 11,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "04_Tom_011.mp3",
+    "file_path": "batch_output\\Job_interview\\04_Tom_011.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 5",
+    "slide_number": 5,
+    "character": "Action",
+    "text": "The manager nods.",
+    "line_number": 12,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "05_Action_012.mp3",
+    "file_path": "batch_output\\Job_interview\\05_Action_012.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 5",
+    "slide_number": 5,
+    "character": "Manager",
+    "text": "When are you available to work?",
+    "line_number": 13,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "05_Manager_013.mp3",
+    "file_path": "batch_output\\Job_interview\\05_Manager_013.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 5",
+    "slide_number": 5,
+    "character": "Tom",
+    "text": "I can work at the weekends and two afternoons during the week.",
+    "line_number": 14,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "05_Tom_014.mp3",
+    "file_path": "batch_output\\Job_interview\\05_Tom_014.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 6",
+    "slide_number": 6,
+    "character": "Action",
+    "text": "Manager smiles approvingly.",
+    "line_number": 15,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "06_Action_015.mp3",
+    "file_path": "batch_output\\Job_interview\\06_Action_015.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 6",
+    "slide_number": 6,
+    "character": "Manager",
+    "text": "That’s perfect. We often need help on Saturdays. Do you mind working early in the morning?",
+    "line_number": 16,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "06_Manager_016.mp3",
+    "file_path": "batch_output\\Job_interview\\06_Manager_016.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 6",
+    "slide_number": 6,
+    "character": "Tom",
+    "text": "No, not at all. I’m used to waking up early.",
+    "line_number": 17,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "06_Tom_017.mp3",
+    "file_path": "batch_output\\Job_interview\\06_Tom_017.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 7",
+    "slide_number": 7,
+    "character": "Action",
+    "text": "Manager stands up and shakes Tom’s hand.",
+    "line_number": 18,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "07_Action_018.mp3",
+    "file_path": "batch_output\\Job_interview\\07_Action_018.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 7",
+    "slide_number": 7,
+    "character": "Manager",
+    "text": "Excellent, Tom. Thank you for coming today. We’ll get back in touch with you in a few days.",
+    "line_number": 19,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "07_Manager_019.mp3",
+    "file_path": "batch_output\\Job_interview\\07_Manager_019.mp3",
+    "success": true
+  },
+  {
+    "scene": "Slide 7",
+    "slide_number": 7,
+    "character": "Tom",
+    "text": "Thank you very much. Have a nice day.",
+    "line_number": 20,
+    "voice_id": "EXAVITQu4vr4xnSDxMaL",
+    "file_name": "07_Tom_020.mp3",
+    "file_path": "batch_output\\Job_interview\\07_Tom_020.mp3",
+    "success": true
+  }
+]
