@@ -55,13 +55,13 @@ class TTSGenerator:
             "xi-api-key": self.api_key
         }
         
-        # TTS beállítások - PONTOSSÁG OPTIMALIZÁLVA
+        # TTS beállítások - PONTOSSÁG + LASSÍTOTT TEMPÓ
         data = {
             "text": text,
             "model_id": model,
             "voice_settings": {
-                "stability": 0.85,           # MAGASABB = pontosabb, konzisztensebb (0-1)
-                "similarity_boost": 0.50,    # ALACSONYABB = kevésbé kreatív (0-1)
+                "stability": 0.95,           # NAGYON MAGAS = lassabb, pontosabb beszéd (0-1)
+                "similarity_boost": 0.40,    # ALACSONY = kevésbé kreatív, lassabb (0-1)
                 "style": 0.0,                # 0 = minimális stílus, szó szerinti (0-1)
                 "use_speaker_boost": True    # Beszélő hangerő optimalizálás
             }

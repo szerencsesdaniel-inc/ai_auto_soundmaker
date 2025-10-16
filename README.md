@@ -1,12 +1,13 @@
 # 🎵 AutoSound - Oktatási Forgatókönyv TTS Generátor
 
-Automatikusan generál hangfájlokat oktatási forgatókönyvekből az ElevenLabs Text-to-Speech API segítségével.
+Automatikusan generál hangfájlokat oktatási forgatókönyvekből az ElevenLabs Text-to-Speech API segítségével **brit angol (British English) 🇬🇧 kiejtéssel**.
 
 ## ✨ Funkciók
 
 - 📖 **Forgatókönyv elemzés**: Automatikusan felismeri a jeleneteket, szereplőket és párbeszédeket
 - 🎤 **Intelligens hangprofil hozzárendelés**: A szereplők leírása alapján választ megfelelő hangot
-- 🔊 **ElevenLabs TTS integráció**: Professzionális minőségű hangok 29+ nyelven
+- 🇬🇧 **Brit angol hangok**: Csak British English hangok (Lily, Matilda, Charlotte, Callum, George, stb.)
+- 🔊 **ElevenLabs TTS integráció**: Professzionális minőségű hangok természetes kiejtéssel
 - 📁 **Strukturált kimenet**: JSON és CSV export az oktatási appokba való importáláshoz
 - 🎯 **Batch feldolgozás**: Több párbeszéd generálása egyszerre
 - 📂 **Batch Mode**: Több .docx/.txt fájl automatikus feldolgozása mappánként szervezve
@@ -124,7 +125,9 @@ Szereplő → Voice ID párosítások:
 }
 ```
 
-## 🎨 Hangprofilok
+## 🎨 Hangprofilok - 🇬🇧 BRITISH ENGLISH
+
+A program **brit angol (British English)** hangokat használ a helyes kiejtéshez!
 
 ### Automatikus felismerés
 
@@ -136,17 +139,20 @@ A program automatikusan hozzárendeli a hangokat a szereplők leírása alapján
 | **Nem** | female, male, lady, man, girl, boy | Női/férfi hang |
 | **Stílus** | friendly, cheerful, professional, polite | Hangulat beállítás |
 
-### Előre konfigurált hangprofilok
+### Előre konfigurált brit hangprofilok 🇬🇧
 
-A `voice_manager.py` tartalmazza a következő profilokat:
+A `voice_manager.py` tartalmazza a következő **brit angol** profilokat:
 
-- `young_female_friendly` - Fiatal, barátságos női hang
-- `young_female_neutral` - Semleges fiatal női hang
-- `elderly_female_cheerful` - Idősebb, vidám női hang
-- `female_professional` - Professzionális női hang
-- `male_young` - Fiatal férfi hang
-- `male_elderly` - Idősebb férfi hang
-- `male_professional` - Professzionális férfi hang
+**Női hangok:**
+- `young_female_friendly` - **Lily** - Fiatal, barátságos brit női hang
+- `young_female_neutral` - **Matilda** - Semleges fiatal brit női hang
+- `elderly_female_cheerful` - **Charlotte** - Idősebb, vidám brit női hang
+- `female_professional` - **Serena** - Professzionális brit női hang
+
+**Férfi hangok:**
+- `male_young` - **Callum** - Fiatal brit férfi hang
+- `male_elderly` - **Chris** - Idősebb brit férfi hang
+- `male_professional` - **George** - Professzionális brit férfi hang
 
 ### Hangok testreszabása
 
@@ -167,14 +173,14 @@ Szerkeszd a `voice_manager.py` `VOICE_PROFILES` dictionary-jét más ElevenLabs 
 
 Elérhető hangok: [ElevenLabs Voice Library](https://elevenlabs.io/voice-library)
 
-## 🎛️ TTS beállítások - PONTOSSÁG OPTIMALIZÁLVA
+## 🎛️ TTS beállítások - PONTOSSÁG + LASSÍTOTT TEMPÓ
 
-A program a **legpontosabb szövegkövetésre** van beállítva:
+A program a **legpontosabb szövegkövetésre és LASSÚ BESZÉDRE** van beállítva:
 
 ```python
 "voice_settings": {
-    "stability": 0.85,          # MAGASABB = pontosabb, szó szerinti (0-1)
-    "similarity_boost": 0.50,   # ALACSONYABB = kevésbé kreatív (0-1)
+    "stability": 0.95,          # NAGYON MAGAS = lassabb, pontosabb beszéd (0-1)
+    "similarity_boost": 0.40,   # ALACSONY = kevésbé kreatív, lassabb (0-1)
     "style": 0.0,               # 0 = minimális stílus (0-1)
     "use_speaker_boost": True   # Beszélő hangerő optimalizálás
 }
@@ -183,11 +189,13 @@ A program a **legpontosabb szövegkövetésre** van beállítva:
 **Model**: `eleven_turbo_v2` - gyorsabb és pontosabb mint a multilingual_v2
 
 ### Paraméterek magyarázata:
-- **stability (0.85)**: Magas érték = konzisztens, pontos kiejtés (nem improvizál)
-- **similarity_boost (0.50)**: Alacsony érték = kevesebb "kreatív" interpretáció
+- **stability (0.95)**: NAGYON magas érték = **LASSÚ, óvatos, pontos** beszéd
+- **similarity_boost (0.40)**: Alacsony érték = kevesebb improvizáció, lassabb tempó
 - **style (0.0)**: Zéró = teljesen semleges, szó szerinti felolvasás
 
-⚠️ **Ha mégis eltérést tapasztalsz**, növeld a stability értéket 0.95-re a `tts_generator.py` 63. sorában
+💡 **Tempó állítás**: A magasabb stability automatikusan lassítja a beszédet. Ha még lassabb kell, állítsd 0.98-ra!
+
+⚠️ **Ha gyorsabb beszédet szeretnél**, csökkentsd a stability-t 0.75-0.80-ra a `tts_generator.py` 63. sorában
 
 ## 📊 Projekt struktúra
 

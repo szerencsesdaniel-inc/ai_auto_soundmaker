@@ -90,30 +90,34 @@ Szereplő2: Válasz...
 
 ### Voice ID-k módosítása
 
-Szerkeszd a `voice_manager.py` fájlt, `VOICE_PROFILES` dictionary:
+A program **brit angol 🇬🇧 hangokat** használ alapból (Lily, Matilda, Charlotte, Callum, George, stb.)
+
+Ha más hangokat szeretnél, szerkeszd a `voice_manager.py` fájlt, `VOICE_PROFILES` dictionary:
 
 ```python
 VOICE_PROFILES = {
-    'young_female_friendly': 'ÚJ_VOICE_ID_ITT',
+    'young_female_friendly': 'ÚJ_VOICE_ID_ITT',  # Új hang ID
     ...
 }
 ```
 
-### TTS pontosság beállítása
+### TTS beállítások - Lassú, pontos beszéd
 
-A program már **optimalizálva van pontos szövegkövetésre**:
+A program **lassú, pontos beszédre** van optimalizálva:
 
 ```python
 "voice_settings": {
-    "stability": 0.85,        # MAGAS = szó szerinti pontosság
-    "similarity_boost": 0.50, # ALACSONY = kevesebb improvizáció
+    "stability": 0.95,        # NAGYON MAGAS = lassú, pontos beszéd
+    "similarity_boost": 0.40, # ALACSONY = kevesebb improvizáció
     "style": 0.0,            # 0 = semleges, pontos felolvasás
 }
 ```
 
 **Model**: `eleven_turbo_v2` (gyorsabb és pontosabb)
 
-⚠️ **Ha mégis eltér a szövegtől**, növeld a stability-t 0.95-re (`tts_generator.py`, 63. sor)
+💡 **Tempó állítás**:
+- **Még lassabb**: Növeld a stability-t 0.98-ra (`tts_generator.py`, 63. sor)
+- **Gyorsabb**: Csökkentsd a stability-t 0.75-0.80-ra
 
 ---
 
