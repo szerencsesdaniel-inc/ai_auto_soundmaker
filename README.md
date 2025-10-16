@@ -260,5 +260,3 @@ Ha kérdésed van vagy problémába ütközöl, ellenőrizd:
 **Készítette**: AutoSound TTS Generator
 **Verzió**: 1.0
 **Utolsó frissítés**: 2025. október
-#   a i _ a u t o _ s o u n d m a k e r  
- 
