@@ -73,17 +73,46 @@ class ScriptParser:
     
     def _extract_characters(self, content: str):
         """Kinyeri a szereplőket és leírásukat."""
-        # Keresünk egy "Characters:" szekciót
-        char_pattern = r'Characters?:\s*\n((?:•|\*|-|\d+\.)\s*.+\n?)+'
-        match = re.search(char_pattern, content, re.MULTILINE | re.IGNORECASE)
+        # Keresünk egy "Characters:" szekciót (több variáció)
+        char_patterns = [
+            r'Characters?:\s*\n((?:•|\*|-|\d+\.)\s*.+\n?)+',  # Lista formátum
+            r'Characters?:\s*(.+?)(?:\n\n|Slide|Scene)',      # Szabad szöveg formátum
+        ]
         
-        if match:
-            char_section = match.group(1)
-            # Minden szereplő egy sorban van
-            char_lines = re.findall(r'[•\*\-\d\.]\s*(.+?)\s*[–—-]\s*(.+)', char_section)
+        for pattern in char_patterns:
+            match = re.search(pattern, content, re.MULTILINE | re.IGNORECASE | re.DOTALL)
             
-            for name, description in char_lines:
-                self.characters[name.strip()] = description.strip()
+            if match:
+                char_section = match.group(1)
+                
+                # TÖBB FORMÁTUM FELISMERÉSE:
+                # 1. Bold formátum: "• **Tom:** 20 years old..."
+                # 2. Sima formátum: "• Tom – 20 years old..."
+                # 3. Gondolatjel formátum: "Tom - description"
+                
+                char_patterns_v2 = [
+                    # Bold + kettőspont: "**Tom:** description" vagy "Tom: description"
+                    r'[•\*\-\d\.]*\s*\*{0,2}([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\*{0,2}\s*:\s*(.+?)(?=\n|$)',
+                    # Gondolatjel: "Tom – description" vagy "Tom - description"
+                    r'[•\*\-\d\.]*\s*([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\s*[–—-]\s*(.+?)(?=\n|$)',
+                ]
+                
+                for cp in char_patterns_v2:
+                    char_lines = re.findall(cp, char_section, re.MULTILINE)
+                    
+                    for name, description in char_lines:
+                        # Tisztítás (bold ** jelek eltávolítása ha maradtak)
+                        name_clean = name.replace('*', '').strip()
+                        desc_clean = description.replace('*', '').strip()
+                        
+                        if name_clean and desc_clean:
+                            self.characters[name_clean] = desc_clean
+                    
+                    if self.characters:
+                        break
+                
+                if self.characters:
+                    break  # Ha találtunk szereplőket, kilépünk
     
     def _extract_scenes(self, content: str):
         """Kinyeri a jeleneteket és a párbeszédeket."""
@@ -124,19 +153,30 @@ class ScriptParser:
         """
         dialogues = []
         
+        # Kizáró lista - ezek NEM szereplők, hanem leíró szavak (ne generáljuk le!)
+        EXCLUDED_KEYWORDS = [
+            'scene', 'setting', 'location', 'context', 'dialogue', 
+            'note', 'description', 'action', 'stage', 'background',
+            'sound', 'music', 'time', 'place', 'situation'
+        ]
+        
         # Párbeszéd formátum: "Szereplő: Szöveg"
         dialogue_pattern = r'^([A-Za-z]+):\s*(.+)$'
         
         lines = slide_content.split('\n')
         for line in lines:
             line = line.strip()
-            if not line or line.lower() == 'dialogue:':
+            if not line:
                 continue
             
             match = re.match(dialogue_pattern, line)
             if match:
                 character = match.group(1).strip()
                 text = match.group(2).strip()
+                
+                # Kiszűrjük a leíró sorokat (Scene:, Setting:, stb.)
+                if character.lower() in EXCLUDED_KEYWORDS:
+                    continue
                 
                 dialogues.append({
                     'character': character,

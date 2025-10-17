@@ -1,9 +1,0 @@
-scene,slide_number,character,text,voice_id,file_name,success
-Slide 1,1,Scene,Corridor. Daniel sees Ms Camilleri.,EXAVITQu4vr4xnSDxMaL,01_Scene_001.mp3,True
-Slide 1,1,Daniel,"Good morning, Ms Camilleri.",EXAVITQu4vr4xnSDxMaL,01_Daniel_002.mp3,True
-Slide 2,2,Scene,"Daniel holds his books, a bit shy.",EXAVITQu4vr4xnSDxMaL,02_Scene_003.mp3,True
-Slide 2,2,Daniel,"I’m fine, thank you. I’m a bit nervous about the test.",EXAVITQu4vr4xnSDxMaL,02_Daniel_004.mp3,True
-Slide 3,3,Scene,Ms Camilleri smiles kindly.,EXAVITQu4vr4xnSDxMaL,03_Scene_005.mp3,True
-Slide 3,3,Daniel,I hope so.,EXAVITQu4vr4xnSDxMaL,03_Daniel_006.mp3,True
-Slide 4,4,Scene,"Two-shot, corridor with other students passing.",EXAVITQu4vr4xnSDxMaL,04_Scene_007.mp3,True
-Slide 4,4,Daniel,"And how are you, Ms Camilleri?",EXAVITQu4vr4xnSDxMaL,04_Daniel_008.mp3,True

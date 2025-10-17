@@ -110,9 +110,19 @@ def main():
     
     voice_manager = VoiceManager(custom_mappings)
     
-    # Automatikus hozzárendelés a leírások alapján
-    for character, description in parser_data['characters'].items():
-        voice_manager.assign_voice_by_description(character, description)
+    # Ha VAN Characters szekció, használjuk
+    if parser_data['characters']:
+        # Automatikus hozzárendelés a leírások alapján
+        for character, description in parser_data['characters'].items():
+            voice_manager.assign_voice_by_description(character, description)
+    # Ha NINCS Characters szekció, a párbeszédekből gyűjtjük össze a neveket
+    else:
+        print("⚠️  Nincs Characters szekció - nevek alapján történik a hangválasztás")
+        dialogues = parser.get_all_dialogues()
+        unique_characters = set(d['character'] for d in dialogues)
+        for character in unique_characters:
+            # Üres leírással hívjuk meg -> név alapú felismerés
+            voice_manager.assign_voice_by_description(character, "")
     
     # Összefoglaló kiírása
     print_summary(parser_data, voice_manager)

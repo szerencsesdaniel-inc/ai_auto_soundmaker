@@ -7,6 +7,7 @@ Automatikusan generál hangfájlokat oktatási forgatókönyvekből az ElevenLab
 - 📖 **Forgatókönyv elemzés**: Automatikusan felismeri a jeleneteket, szereplőket és párbeszédeket
 - 🎤 **Intelligens hangprofil hozzárendelés**: A szereplők leírása alapján választ megfelelő hangot
 - 🇬🇧 **Brit angol hangok**: Csak British English hangok (Lily, Matilda, Charlotte, Callum, George, stb.)
+- 💰 **Kredit megtakarítás**: Automatikusan kiszűri a Scene:, Setting: stb. leíró sorokat
 - 🔊 **ElevenLabs TTS integráció**: Professzionális minőségű hangok természetes kiejtéssel
 - 📁 **Strukturált kimenet**: JSON és CSV export az oktatási appokba való importáláshoz
 - 🎯 **Batch feldolgozás**: Több párbeszéd generálása egyszerre
@@ -63,15 +64,31 @@ Characters:
 • Szereplő2 – leírás (pl. elderly lady, cheerful)
 
 Slide 1
+Scene: A market in London            ← NEM generálódik le! ✅
 Dialogue:
-Szereplő1: Párbeszéd szövege...
-Szereplő2: Válasz szöveg...
+Szereplő1: Párbeszéd szövege...      ← Generálódik ✅
+Szereplő2: Válasz szöveg...          ← Generálódik ✅
 
 Slide 2
+Setting: A cozy restaurant           ← NEM generálódik le! ✅
 Dialogue:
-Szereplő1: Következő jelenet...
-Szereplő2: Válasz...
+Szereplő1: Következő jelenet...      ← Generálódik ✅
+Szereplő2: Válasz...                 ← Generálódik ✅
 ```
+
+### ⚡ Kredit megtakarítás - Automatikus szűrés
+
+A program **automatikusan kiszűri** a leíró sorokat, hogy ne pazarold a krediteket:
+
+**Kiszűrt kulcsszavak** (NEM generálódnak le):
+- `Scene:` - Jelenet leírás
+- `Setting:` - Helyszín leírás  
+- `Location:`, `Place:` - Hely
+- `Context:`, `Situation:` - Kontextus
+- `Note:`, `Description:` - Megjegyzések
+- `Action:`, `Stage:` - Színpadi utasítások
+
+💡 **Csak a tényleges párbeszédek** (Szereplő: Szöveg) kerülnek legenerálásra!
 
 ### Példa
 
@@ -173,14 +190,14 @@ Szerkeszd a `voice_manager.py` `VOICE_PROFILES` dictionary-jét más ElevenLabs 
 
 Elérhető hangok: [ElevenLabs Voice Library](https://elevenlabs.io/voice-library)
 
-## 🎛️ TTS beállítások - PONTOSSÁG + LASSÍTOTT TEMPÓ
+## 🎛️ TTS beállítások - OPTIMALIZÁLT BESZÉD
 
-A program a **legpontosabb szövegkövetésre és LASSÚ BESZÉDRE** van beállítva:
+A program **kiegyensúlyozott beállításokkal** működik:
 
 ```python
 "voice_settings": {
-    "stability": 0.95,          # NAGYON MAGAS = lassabb, pontosabb beszéd (0-1)
-    "similarity_boost": 0.40,   # ALACSONY = kevésbé kreatív, lassabb (0-1)
+    "stability": 0.75,          # KÖZEPES-MAGAS = lassúbb, érthető beszéd (0-1)
+    "similarity_boost": 0.75,   # MAGAS = erős, karakteres hang (0-1)
     "style": 0.0,               # 0 = minimális stílus (0-1)
     "use_speaker_boost": True   # Beszélő hangerő optimalizálás
 }
@@ -189,13 +206,15 @@ A program a **legpontosabb szövegkövetésre és LASSÚ BESZÉDRE** van beáll�
 **Model**: `eleven_turbo_v2` - gyorsabb és pontosabb mint a multilingual_v2
 
 ### Paraméterek magyarázata:
-- **stability (0.95)**: NAGYON magas érték = **LASSÚ, óvatos, pontos** beszéd
-- **similarity_boost (0.40)**: Alacsony érték = kevesebb improvizáció, lassabb tempó
+- **stability (0.75)**: Közepes-magas érték = **lassúbb, de NEM túl halk** beszéd
+- **similarity_boost (0.75)**: Magas érték = **erősebb, karakteresebb** hang, jó hangerő
 - **style (0.0)**: Zéró = teljesen semleges, szó szerinti felolvasás
 
-💡 **Tempó állítás**: A magasabb stability automatikusan lassítja a beszédet. Ha még lassabb kell, állítsd 0.98-ra!
-
-⚠️ **Ha gyorsabb beszédet szeretnél**, csökkentsd a stability-t 0.75-0.80-ra a `tts_generator.py` 63. sorában
+💡 **Finomhangolás** (`tts_generator.py`, 63-64. sor):
+- **Lassabb beszéd**: `stability` 0.85-re
+- **Gyorsabb beszéd**: `stability` 0.60-ra
+- **Halkabb hang**: `similarity_boost` 0.50-re
+- **Hangosabb hang**: `similarity_boost` 0.85-re
 
 ## 📊 Projekt struktúra
 

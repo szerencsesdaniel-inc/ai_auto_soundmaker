@@ -1,29 +1,41 @@
 8 Food and Drink
 8.2 – At the Market: Buying Food
 Level: A1
-
+Leírás:
+Students can practise asking for food, prices and quantities in simple sentences. 
+Setting:
+A small outdoor market in the morning. A customer is buying fruit and cheese.
 Characters:
 • Lisa – customer, friendly and polite
 • Seller – elderly lady, cheerful and helpful
 
 Slide 1
+Scene: Market stall with apples and oranges. Lisa walks up smiling.
 Dialogue:
 Lisa: Good morning.
 Seller: Good morning. What would you like?
-Lisa: I'd like some apples, please.
-Seller: How many would you like?
-Lisa: Five apples, please.
 
 Slide 2
+Scene: Close-up of the fruit.
 Dialogue:
+Lisa: Two apples, please.
 Seller: Here you are. Anything else?
-Lisa: Yes, I'd like some tomatoes.
-Seller: These are very fresh. How many?
-Lisa: Four tomatoes, please.
+Lisa: Yes, one kilo of oranges, please.
 
 Slide 3
+Scene: The seller puts fruit in a bag.
 Dialogue:
-Seller: That will be five euros.
+Seller: Would you like anything else?
+Lisa: Yes, some cheese, please.
+Seller: How much cheese?
+Lisa: A small piece, please. About 200 grams.
+
+Slide 4
+Scene: Lisa pays and takes the bag and smiles.
+Dialogue:
+Seller: That’s five euros, please.
 Lisa: Here you are.
-Seller: Thank you. Have a nice day!
-Lisa: Thank you. Goodbye!
+Seller: Thank you. Have a nice day.
+Lisa: You too. Bye.
+
+

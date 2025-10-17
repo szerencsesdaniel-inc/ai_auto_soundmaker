@@ -34,7 +34,7 @@ class TTSGenerator:
                        text: str, 
                        voice_id: str, 
                        filename: str,
-                       model: str = "eleven_turbo_v2") -> Optional[str]:
+                       model: str = "eleven_v3") -> Optional[str]:
         """
         Generál egy hangfájlt az ElevenLabs API-val.
         
@@ -42,7 +42,7 @@ class TTSGenerator:
             text: A mondandó szöveg
             voice_id: ElevenLabs voice ID
             filename: A mentendő fájl neve (pl. "01_Lisa_001.mp3")
-            model: ElevenLabs model (alapért: eleven_multilingual_v2)
+            model: ElevenLabs model (alapért: eleven_v3 - legújabb)
             
         Returns:
             Optional[str]: A mentett fájl teljes elérési útja, vagy None hiba esetén
@@ -55,15 +55,16 @@ class TTSGenerator:
             "xi-api-key": self.api_key
         }
         
-        # TTS beállítások - PONTOSSÁG + LASSÍTOTT TEMPÓ
+        # TTS beállítások - MAXIMÁLIS PONTOSSÁG OKTATÁSHOZ 🎓
         data = {
             "text": text,
             "model_id": model,
             "voice_settings": {
-                "stability": 0.95,           # NAGYON MAGAS = lassabb, pontosabb beszéd (0-1)
-                "similarity_boost": 0.40,    # ALACSONY = kevésbé kreatív, lassabb (0-1)
-                "style": 0.0,                # 0 = minimális stílus, szó szerinti (0-1)
-                "use_speaker_boost": True    # Beszélő hangerő optimalizálás
+                "stability": 1.0,            # MAXIMUM = 100% szó szerinti, NULLA improvizáció (0-1)
+                "similarity_boost": 0.25,    # MINIMUM = Teljesen robotikus, pontos szövegkövetés (0-1)
+                "style": 0.0,                # 0 = NULLA stílus, csak a szöveg (0-1)
+                "use_speaker_boost": True,   # Beszélő hangerő optimalizálás
+                "speed": 0.7                 # Beszéd sebessége (0.25-4.0, alapért: 1.0)
             }
         }
         

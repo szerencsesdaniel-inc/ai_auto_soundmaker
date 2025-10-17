@@ -133,8 +133,18 @@ class BatchProcessor:
                     if char in parser_data['characters']:
                         voice_manager.custom_mappings[char] = profile
             
-            for character, description in parser_data['characters'].items():
-                voice_manager.assign_voice_by_description(character, description)
+            # Ha VAN Characters szekció, használjuk
+            if parser_data['characters']:
+                for character, description in parser_data['characters'].items():
+                    voice_manager.assign_voice_by_description(character, description)
+            # Ha NINCS Characters szekció, a párbeszédekből gyűjtjük össze a neveket
+            else:
+                print("   ⚠️  Nincs Characters szekció - nevek alapján történik a hangválasztás")
+                dialogues = parser.get_all_dialogues()
+                unique_characters = set(d['character'] for d in dialogues)
+                for character in unique_characters:
+                    # Üres leírással hívjuk meg -> név alapú felismerés
+                    voice_manager.assign_voice_by_description(character, "")
             
             # Output mappa létrehozása
             output_dir = self.create_output_directory(file_path.stem)

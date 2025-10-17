@@ -12,24 +12,24 @@ class VoiceManager:
     Szereplőkhöz rendeli a megfelelő ElevenLabs voice ID-kat.
     """
     
-    # Előre definiált ElevenLabs voice ID-k
-    # Ezek példa ID-k - helyettesítsd be a saját választott hangokkal!
+    # Előre definiált ElevenLabs voice ID-k - BRITISH ENGLISH 🇬🇧
+    # Csak brit angol hangok a helyes kiejtéshez!
     # A teljes hanglista: https://elevenlabs.io/voice-library
     
     VOICE_PROFILES = {
-        # Női hangok
-        'young_female_friendly': 'EXAVITQu4vr4xnSDxMaL',      # Sarah - soft, young
-        'young_female_neutral': 'pNInz6obpgDQGcFmaJgB',       # Adam -> használható női helyett
-        'elderly_female_cheerful': 'XB0fDUnXU5powFXDhCwa',    # Charlotte - warm, middle-aged
-        'female_professional': 'ThT5KcBeYPX3keUQqHPh',        # Dorothy - pleasant
+        # Női brit hangok 🇬🇧
+        'young_female_friendly': 'pFZP5JQG7iQjIQuC4Bku',      # Lily - British, young, warm
+        'young_female_neutral': 'XrExE9yKIg1WjnnlVkGX',       # Matilda - British, young, pleasant
+        'elderly_female_cheerful': 'XB0fDUnXU5powFXDhCwa',    # Charlotte - British, middle-aged, warm
+        'female_professional': 'z9fAnlkpzviPz146aGWa',        # Serena - British, clear, professional
         
-        # Férfi hangok  
-        'male_young': 'pNInz6obpgDQGcFmaJgB',                 # Adam - neutral
-        'male_elderly': 'yoZ06aMxZJJ28mfd3POQ',               # Sam - raspy, old
-        'male_professional': 'VR6AewLTigWG4xSOukaG',          # Arnold - strong
+        # Férfi brit hangok 🇬🇧
+        'male_young': 'N2lVS1w4EtoT3dr4eOWO',                 # Callum - British, young, neutral
+        'male_elderly': 'iP95p4xoKVk53GoZ742B',               # Chris - British, mature, engaging
+        'male_professional': 'JBFqnCBsd6RMkjVDRZzb',          # George - British, professional, clear
         
-        # Alapértelmezett
-        'default': 'EXAVITQu4vr4xnSDxMaL'
+        # Alapértelmezett - brit női hang
+        'default': 'pFZP5JQG7iQjIQuC4Bku'                     # Lily - British default
     }
     
     def __init__(self, custom_mappings: Optional[Dict[str, str]] = None):
@@ -60,14 +60,42 @@ class VoiceManager:
             self.character_voice_map[character] = voice_id
             return voice_id
         
-        # Automatikus felismerés kulcsszavak alapján
-        description_lower = description.lower()
+        # NÉV alapú nem-felismerés (ha nincs leírás)
+        character_lower = character.lower()
+        
+        # Tipikus férfi nevek
+        male_names = [
+            'tom', 'jake', 'mark', 'john', 'james', 'robert', 'michael', 'david',
+            'william', 'daniel', 'matthew', 'chris', 'paul', 'peter', 'andrew',
+            'manager', 'waiter', 'clerk', 'man', 'boy', 'father', 'brother', 'mr',
+            'callum', 'george', 'jack', 'ben', 'joe', 'steve', 'kevin',
+            'doctor', 'receptionist'  # Gyakran férfi szerepek
+        ]
+        
+        # Tipikus női nevek
+        female_names = [
+            'lisa', 'sarah', 'emma', 'emily', 'julia', 'mia', 'claire', 'anna',
+            'maria', 'laura', 'jane', 'kate', 'lucy', 'sophie', 'olivia', 'rachel',
+            'seller', 'waitress', 'woman', 'lady', 'girl', 'mother', 'sister', 'mrs',
+            'lily', 'matilda', 'charlotte', 'serena', 'jessica', 'amy', 'hannah'
+        ]
+        
+        # Unisex nevek - kontextus alapján döntünk
+        unisex_names = ['alex', 'sam', 'charlie', 'taylor', 'jordan', 'casey']
+        
+        # Név alapú felismerés
+        is_male_name = character_lower in male_names
+        is_female_name = character_lower in female_names
+        is_unisex_name = character_lower in unisex_names
+        
+        # Automatikus felismerés kulcsszavak alapján (leírásból)
+        description_lower = description.lower() if description else ""
         
         # Kor szerinti felismerés
         is_young = any(word in description_lower for word in ['young', 'teenager', 'student', 'child'])
         is_elderly = any(word in description_lower for word in ['elderly', 'old', 'senior', 'grandmother', 'grandfather'])
         
-        # Nem szerinti felismerés
+        # Nem szerinti felismerés (leírásból)
         is_female = any(word in description_lower for word in ['lady', 'woman', 'girl', 'female', 'mother', 'sister'])
         is_male = any(word in description_lower for word in ['man', 'boy', 'male', 'father', 'brother'])
         
@@ -76,8 +104,21 @@ class VoiceManager:
         is_friendly = any(word in description_lower for word in ['friendly', 'polite', 'kind', 'helpful'])
         is_professional = any(word in description_lower for word in ['professional', 'formal', 'business'])
         
-        # Logika: női + kor + hangulat
-        if is_female:
+        # JAVÍTOTT LOGIKA: Név prioritás, aztán leírás
+        
+        # 1. Ha a NÉV egyértelműen férfi
+        if is_male_name or is_male:
+            if is_elderly:
+                profile = 'male_elderly'
+            elif is_young:
+                profile = 'male_young'
+            elif is_professional:
+                profile = 'male_professional'
+            else:
+                profile = 'male_young'  # Alapértelmezett férfi hang
+        
+        # 2. Ha a NÉV egyértelműen női
+        elif is_female_name or is_female:
             if is_elderly and is_cheerful:
                 profile = 'elderly_female_cheerful'
             elif is_young and is_friendly:
@@ -86,18 +127,27 @@ class VoiceManager:
                 profile = 'female_professional'
             else:
                 profile = 'young_female_neutral'
-        elif is_male:
-            if is_elderly:
-                profile = 'male_elderly'
-            elif is_young:
+        
+        # 3. Unisex név - leírás alapján döntünk
+        elif is_unisex_name:
+            if is_male or 'he' in description_lower or 'his' in description_lower:
                 profile = 'male_young'
-            elif is_professional:
-                profile = 'male_professional'
+            elif is_female or 'she' in description_lower or 'her' in description_lower:
+                profile = 'young_female_neutral'
             else:
-                profile = 'male_young'
+                # Végződés alapján próbálkozunk
+                if character_lower.endswith('a'):
+                    profile = 'young_female_neutral'
+                else:
+                    profile = 'male_young'
+        
+        # 4. Alapértelmezett (ha sem név, sem leírás nem segít)
         else:
-            # Alapértelmezett
-            profile = 'default'
+            # Próbálkozás: ha a név 'a'-ra, 'ia'-ra stb. végződik → női
+            if character_lower.endswith(('a', 'ia', 'ella', 'ette', 'ine', 'ie')):
+                profile = 'young_female_neutral'
+            else:
+                profile = 'male_young'  # Alapért. inkább férfi mint női
         
         voice_id = self.VOICE_PROFILES[profile]
         self.character_voice_map[character] = voice_id
